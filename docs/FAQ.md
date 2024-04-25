@@ -12,7 +12,7 @@
 
 Con el comando 'Obtener argumentos' podrás pasar argumentos a través del .bat. En el comando se indica de la siguiente manera: `['arg']` y en el .bat: `arg=param`. 
 Ejemplo: 
-![getArgs](example_getArguments.png)
+![getArgs](imgs/example_getArguments.png)
 
 ```
 cd C:/Rocketbot
