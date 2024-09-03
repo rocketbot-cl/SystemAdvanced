@@ -6,8 +6,9 @@
   
 Module to extend functionalities of the System section  
 
+*Read this in other languages: [English](Manual_SystemAdvanced.md), [Português](Manual_SystemAdvanced.pr.md), [Español](Manual_SystemAdvanced.es.md)*
+  
 ![banner](imgs/Modulo-System.jpg)
-
 ## How to install this module
   
 To install the module in Rocketbot Studio, it can be done in two ways:
@@ -50,7 +51,7 @@ Enter the variables to be cleaned separated by a comma
 Enter the category of variables to clean
 |Parameters|Description|example|
 | --- | --- | --- |
-|Category|Name of the category to which the variables belong to be cleaned|Connection|
+|Category|Name of the category to which the variables belong to be cleaned. You can add multiple categories separated by commas.|Connection|
 
 ### Random
   

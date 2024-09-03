@@ -6,8 +6,9 @@
   
 Módulo para ampliar funcionalidades da seção Sistema  
 
+*Read this in other languages: [English](Manual_SystemAdvanced.md), [Português](Manual_SystemAdvanced.pr.md), [Español](Manual_SystemAdvanced.es.md)*
+  
 ![banner](imgs/Modulo-System.jpg)
-
 ## Como instalar este módulo
   
 Para instalar o módulo no Rocketbot Studio, pode ser feito de duas formas:
@@ -50,7 +51,7 @@ Para instalar o módulo no Rocketbot Studio, pode ser feito de duas formas:
 
 |Parâmetros|Descrição|exemplo|
 | --- | --- | --- |
-|Category|Name of the category to which the variables belong to be cleaned|Connection|
+|Category|Name of the category to which the variables belong to be cleaned. You can add multiple categories separated by commas.|Connection|
 
 ### 
   
