@@ -7,7 +7,7 @@
     "pr": "Módulo para ampliar funcionalidades da seção Sistema"
   },
   "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-  "version": "2.6",
+  "version": "2.7",
   "license": "MIT",
   "homepage": "http://rocketbot.co",
   "linux": true,
@@ -238,8 +238,8 @@
               "en": "Category"
             },
             "description": {
-              "es": "Nombre de la categoría a la que pertenecen las variables a limpiar",
-              "en": "Name of the category to which the variables belong to be cleaned"
+              "es": "Nombre de la categoría a la que pertenecen las variables a limpiar. Puede agregar varias categorías separadas por coma.",
+              "en": "Name of the category to which the variables belong to be cleaned. You can add multiple categories separated by commas."
             },
             "help": {
               "es": "Limpia las variables que se encuentren en la categoría indicada",

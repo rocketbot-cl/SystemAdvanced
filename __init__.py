@@ -81,10 +81,13 @@ try:
             SetVar(var, '')
 
     if module == "cleanVarsByCategory":
-        global categoria
+        global categoria_
         categoria = GetParams("categoria")
 
-        variables = [var["name"] for var in vars_ if var.get("category", "") == categoria]
+        categoria_ = [cat.strip() for cat in categoria.split(",")]
+        
+        variables = [var["name"] for var in vars_ if var.get("category", "") in categoria_]
+        
         for var in variables:
             SetVar(var, '')
 
