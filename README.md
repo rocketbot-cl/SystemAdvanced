@@ -6,6 +6,8 @@
   
 Module to extend functionalities of the System section  
 
+*Read this in other languages: [English](README.md), [Português](README.pr.md), [Español](README.es.md)*
+
 ## How to install this module
   
 To install the module in Rocketbot Studio, it can be done in two ways:

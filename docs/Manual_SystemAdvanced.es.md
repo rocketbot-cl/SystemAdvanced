@@ -6,8 +6,9 @@
   
 Módulo para extender funcionalidades de la sección Sistema  
 
+*Read this in other languages: [English](Manual_SystemAdvanced.md), [Português](Manual_SystemAdvanced.pr.md), [Español](Manual_SystemAdvanced.es.md)*
+  
 ![banner](imgs/Modulo-System.jpg)
-
 ## Como instalar este módulo
   
 Para instalar el módulo en Rocketbot Studio, se puede hacer de dos formas:
@@ -50,7 +51,7 @@ Ingrese las variables a limpiar separadas por coma
 Ingrese la categoría de variables a limpiar
 |Parámetros|Descripción|ejemplo|
 | --- | --- | --- |
-|Categoría|Nombre de la categoría a la que pertenecen las variables a limpiar|Conexión|
+|Categoría|Nombre de la categoría a la que pertenecen las variables a limpiar. Puede agregar varias categorías separadas por coma.|Conexión|
 
 ### Random
   
