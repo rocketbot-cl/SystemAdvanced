@@ -72,10 +72,17 @@ try:
     if module == "cleanVars":
 
         variables = GetParams('vars')
+        
+        full_list = [var["name"] for var in vars_]
+
         if not variables:
-            variables = [var["name"] for var in vars_]
+            variables = full_list
         else:
             variables = variables.split(',')
+
+            for var in variables:
+                if var not in full_list:
+                    raise Exception('ERROR: Invalid format. Check if the variables are without brackets and no spaces in between, or if one of the indicated variables does not exist.')
 
         for var in variables:
             SetVar(var, '')
