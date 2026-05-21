@@ -183,6 +183,26 @@ try:
             for each in argumentsNeeded:
                 realArg[f"{each}"] = argDic[f"{each}"]
             SetVar(whereToStore, realArg)
+            
+            
+            
+    if module == "initializeVariables":
+
+        variables = GetParams('vars')
+        
+        full_list = [var["name"] for var in vars_]
+
+        if not variables:
+            variables = full_list
+        else:
+            variables = variables.split(',')
+
+            for var in variables:
+                if var not in full_list:
+                    raise Exception('ERROR: Invalid format. Check if the variables are without brackets and no spaces in between, or if one of the indicated variables does not exist.')
+
+        for var in variables:
+            SetVar(var, 0)        
 
 except Exception as e:
     print("\x1B[" + "31;40mError\u2193\x1B[" + "0m")

@@ -1,13 +1,13 @@
 {
   "author": "José Gonzalez - Danilo Toro - Rocketbot",
-  "description": "Módulo para extender funcionalidades de la sección Sistema",
+  "description": "Module to extend the functionalities of the System section",
   "description_lang": {
     "es": "Módulo para extender funcionalidades de la sección Sistema",
     "en": "Module to extend functionalities of the System section",
     "pr": "Módulo para ampliar funcionalidades da seção Sistema"
   },
   "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-  "version": "2.8",
+  "version": "2.9",
   "license": "MIT",
   "homepage": "http://rocketbot.co",
   "linux": true,
@@ -24,15 +24,21 @@
   "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ3MC4xNzkgNDcwLjE3OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDcwLjE3OSA0NzAuMTc5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0U1NjM1MzsiIGQ9Ik0zNjIuMTU5LDI4OS43M2MwLjYyNCwyNi44NDksMjQuMzUxLDQ4LjcwMiw1MS4yLDQ4LjA3OGMxMS44NjMtMC42MjQsMjMuMTAyLTQuOTk1LDMxLjIyLTEyLjQ4OCAgYzMuNzQ2LTMuNzQ2LDkuMzY2LTUuNjIsMTQuOTg1LTUuNjJoOS45OXYxMzMuNjJjMCw4Ljc0MS02Ljg2OCwxNS42MS0xNS42MSwxNS42MUgzMTkuNzAxdi05Ljk5YzAtNS42MiwyLjQ5OC0xMS4yMzksNi4yNDQtMTUuNjEgIGM3LjQ5My04Ljc0MSwxMi40ODgtMTkuOTgsMTIuNDg4LTMyLjQ2OGMwLTEuODczLDAtMy4xMjIsMC00Ljk5NWMwLTAuNjI0LDAtMC42MjQsMC0xLjI0OWMwLTEuMjQ5LDAtMi40OTgtMC42MjQtMy43NDYgIGMwLTAuNjI0LDAtMS4yNDktMC42MjQtMS44NzNjMC0xLjI0OS0wLjYyNC0xLjg3My0wLjYyNC0zLjEyMmMwLTAuNjI0LTAuNjI0LTEuMjQ5LTAuNjI0LTEuODczICBjLTAuNjI0LTEuMjQ5LTAuNjI0LTEuODczLTEuMjQ5LTMuMTIyYzAtMC42MjQtMC42MjQtMS4yNDktMC42MjQtMS44NzNjLTAuNjI0LTAuNjI0LTAuNjI0LTEuODczLTEuMjQ5LTIuNDk4ICBjMC0wLjYyNC0wLjYyNC0xLjI0OS0wLjYyNC0xLjg3M2MtMC42MjQtMC42MjQtMS4yNDktMS44NzMtMS44NzMtMi40OThjLTAuNjI0LTAuNjI0LTAuNjI0LTEuMjQ5LTEuMjQ5LTEuMjQ5ICBjLTAuNjI0LTAuNjI0LTEuMjQ5LTEuODczLTEuODczLTIuNDk4Yy0wLjYyNC0wLjYyNC0wLjYyNC0wLjYyNC0xLjI0OS0xLjI0OWMtMC42MjQtMC42MjQtMS4yNDktMS4yNDktMS44NzMtMS44NzMgIHMtMS4yNDktMC42MjQtMS4yNDktMS4yNDljLTAuNjI0LTAuNjI0LTEuMjQ5LTEuMjQ5LTIuNDk4LTEuODczYy0wLjYyNC0wLjYyNC0xLjI0OS0wLjYyNC0xLjI0OS0xLjI0OSAgYy0wLjYyNC0wLjYyNC0xLjg3My0xLjI0OS0yLjQ5OC0xLjg3M2MtMC42MjQtMC42MjQtMS4yNDktMC42MjQtMS44NzMtMS4yNDljLTAuNjI0LTAuNjI0LTEuODczLTEuMjQ5LTIuNDk4LTEuMjQ5ICBzLTEuMjQ5LTAuNjI0LTEuODczLTAuNjI0Yy0wLjYyNC0wLjYyNC0xLjg3My0wLjYyNC0yLjQ5OC0xLjI0OWMtMC42MjQsMC0xLjI0OS0wLjYyNC0xLjg3My0wLjYyNCAgYy0wLjYyNCwwLTEuODczLTAuNjI0LTIuNDk4LTEuMjQ5Yy0wLjYyNCwwLTEuMjQ5LDAtMS44NzMtMC42MjRjLTAuNjI0LDAtMS44NzMtMC42MjQtMi40OTgtMC42MjRzLTEuMjQ5LDAtMS44NzMsMCAgcy0xLjg3MywwLTMuMTIyLDBjLTAuNjI0LDAtMS4yNDksMC0yLjQ5OCwwYy0wLjYyNCwwLTEuODczLDAtMi40OTgsMGgtMC42MjRoLTIuNDk4Yy0wLjYyNCwwLTEuODczLDAtMi40OTgsMCAgYy0xLjI0OSwwLTEuODczLDAuNjI0LTMuMTIyLDAuNjI0Yy0wLjYyNCwwLTEuMjQ5LDAtMS44NzMsMGMtMS4yNDksMC0yLjQ5OCwwLjYyNC0zLjc0NiwxLjI0OWgtMC42MjQgIGMtMS4yNDksMC42MjQtMy4xMjIsMS4yNDktNC4zNzEsMS44NzNsMCwwYy05Ljk5LDQuMzcxLTE4LjczMiwxMi40ODgtMjMuNzI3LDIyLjQ3OGMwLDAsMCwwLDAsMC42MjQgIGMtMC42MjQsMS4yNDktMS4yNDksMi40OTgtMS44NzMsMy43NDZjMCwwLDAsMC42MjQtMC42MjQsMS4yNDljLTAuNjI0LDEuMjQ5LTAuNjI0LDEuODczLTEuMjQ5LDMuMTIyICBjMCwwLjYyNC0wLjYyNCwxLjI0OS0wLjYyNCwxLjg3M2MwLDAuNjI0LTAuNjI0LDEuODczLTAuNjI0LDIuNDk4YzAsMC42MjQtMC42MjQsMS4yNDktMC42MjQsMS44NzNjMCwwLjYyNCwwLDEuODczLDAsMi40OTggIGMwLDAuNjI0LDAsMS44NzMsMCwyLjQ5OGMwLDAuNjI0LDAsMS44NzMsMCwyLjQ5OHMwLDEuODczLDAsMi40OTh2MC42MjRjMCwwLjYyNCwwLDEuMjQ5LDAsMS44NzN2Mi40OThjMCwwLjYyNCwwLDEuMjQ5LDAsMS44NzMgIGMwLDAuNjI0LDAsMS44NzMsMC42MjQsMi40OThjMCwwLjYyNCwwLDEuMjQ5LDAuNjI0LDEuODczYzAsMC42MjQsMC42MjQsMS44NzMsMC42MjQsMi40OThjMCwwLjYyNCwwLjYyNCwxLjI0OSwwLjYyNCwxLjg3MyAgYzAsMC42MjQsMC42MjQsMS4yNDksMC42MjQsMS44NzNjMCwwLjYyNCwwLjYyNCwxLjI0OSwwLjYyNCwxLjg3M2MwLDAuNjI0LDAuNjI0LDEuMjQ5LDAuNjI0LDEuODczICBjMCwwLjYyNCwwLjYyNCwxLjI0OSwxLjI0OSwxLjg3M2MwLjYyNCwwLjYyNCwwLjYyNCwxLjI0OSwxLjI0OSwxLjg3M2MwLjYyNCwwLjYyNCwwLjYyNCwxLjI0OSwxLjI0OSwxLjg3MyAgYzAuNjI0LDAuNjI0LDAuNjI0LDEuMjQ5LDEuMjQ5LDEuODczYzAuNjI0LDAuNjI0LDAuNjI0LDEuMjQ5LDEuMjQ5LDEuODczYzAuNjI0LDAuNjI0LDAuNjI0LDAuNjI0LDEuMjQ5LDEuMjQ5ICBjMy43NDYsNC4zNzEsNi4yNDQsOS45OSw2LjI0NCwxNS42MXY5Ljk5SDEyMy42NDJjLTguNzQxLDAtMTUuNjEtNi44NjgtMTUuNjEtMTUuNjFWMzE5LjA3NmgtOS45OSAgYy01LjYyLDAtMTAuNjE1LDEuODczLTE0Ljk4NSw1LjYyYy04LjExNyw3LjQ5My0xOS4zNTYsMTIuNDg4LTMxLjIyLDEyLjQ4OGMtMjYuODQ5LDEuMjQ5LTUwLjU3Ni0yMC42MDUtNTEuMi00OC4wNzggIGMtMC42MjQtMjguMDk4LDIxLjg1NC01MC41NzYsNDkuMzI3LTUwLjU3NmMxMi40ODgsMCwyMy43MjcsNC4zNzEsMzIuNDY4LDEyLjQ4OGM0LjM3MSwzLjc0Niw5LjM2Niw2LjI0NCwxNS42MSw2LjI0NGg5Ljk5VjEyMy4wMTggIGMwLTguNzQxLDYuODY4LTE1LjYxLDE1LjYxLTE1LjYxaDEzNC4yNDR2LTkuOTljMC01LjYyLTEuODczLTEwLjYxNS01LjYyLTE0Ljk4NWMtNy40OTMtOC4xMTctMTIuNDg4LTE5LjM1Ni0xMi40ODgtMzEuMjIgIGMtMS4yNDktMjYuODQ5LDIwLjYwNS01MC41NzYsNDcuNDU0LTUxLjJjMjguMDk4LTAuNjI0LDUwLjU3NiwyMS44NTQsNTAuNTc2LDQ5LjMyN2MwLDEyLjQ4OC00LjM3MSwyMy43MjctMTIuNDg4LDMyLjQ2OCAgYy0zLjc0Niw0LjM3MS02LjI0NCw5LjM2Ni02LjI0NCwxNS42MXY5Ljk5aDEzNC44NjhjOC43NDEsMCwxNS42MSw2Ljg2OCwxNS42MSwxNS42MXYxMzQuMjQ0aC05Ljk5ICBjLTUuNjIsMC0xMS4yMzktMi40OTgtMTUuNjEtNi4yNDRjLTguNzQxLTcuNDkzLTE5Ljk4LTEyLjQ4OC0zMi40NjgtMTIuNDg4QzM4NC4wMTMsMjM5LjE1NCwzNjEuNTM1LDI2MS42MzIsMzYyLjE1OSwyODkuNzN6Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=",
   "children": [
     {
+    "en": {
+        "title": "Export variables to a file",
+        "description": "Export all Rocketbot variables to a files",
+        "title_options": null,
+        "options": null
+      },
       "es": {
         "title": "Exportar variables a archivo",
         "description": "Exporta variables de Rocketbot a un archivo",
         "title_options": null,
         "options": null
       },
-      "en": {
-        "title": "Export variables to a file",
-        "description": "Export all Rocketbot variables to a files",
+      "pr": {
+        "title": "Exportar variáveis ​​para arquivo",
+        "description": "Exportar variáveis ​​do Rocketbot para um arquivo",
         "title_options": null,
         "options": null
       },
@@ -42,16 +48,19 @@
           {
             "type": "file_new",
             "placeholder": {
+              "en": "C:/User/Usuario/Folder/file.txt",
               "es": "C:/User/Usuario/Folder/file.txt",
-              "en": "C:/User/Usuario/Folder/file.txt"
+              "pr": "C:/Usuário/Usuário/Pasta/arquivo.txt"
             },
             "title": {
+              "en": "File path:  ",
               "es": "Ruta del archivo: ",
-              "en": "File path:  "
+              "pr": "Caminho do arquivo:"
             },
             "description": {
+              "en": "Path and name of the file where the variables will be stored",
               "es": "Ruta y nombre del archivo donde se guardarán las variables",
-              "en": "Path and name of the file where the variables will be stored"
+              "pr": "Caminho e nome do arquivo onde as variáveis ​​serão salvas"
             },
             "id": "path",
             "css": "col-md-12"
@@ -71,31 +80,39 @@
       "mac": true,
       "docker": true
     },
-    {
+    {"en": {
+          "title": "Set Multiple Variable",
+          "description": "Set multiple variables from an iterable object",
+          "title_options": null,
+          "options": null
+        },
       "es": {
         "title": "Asignar Multiples Variables",
         "description": "Asigna un valor a multiples variables desde un objeto iterable",
         "title_options": null,
         "options": null
       },
-      "en": {
-        "title": "Set Multiple Variable",
-        "description": "Set multiple variables from an iterable object",
+      "pr": {
+        "title": "Atribuir múltiplas variáveis",
+        "description": "Atribua um valor a múltiplas variáveis ​​a partir de um objeto iterável.",
         "title_options": null,
         "options": null
       },
+
       "form": {
         "css": "modal-lg",
         "inputs": [
           {
             "type": "input",
             "title": {
+              "en": "Dato: ",
               "es": "Dato: ",
-              "en": "Data: "
+              "pr": "Dato: "
             },
             "description": {
+              "en": "Value to set",
               "es": "Valor a setear",
-              "en": "Value to set"
+              "pr": "Valor a ser definido"
             },
             "id": "data",
             "css": "col-md-12"
@@ -104,12 +121,14 @@
             "type": "input",
             "placeholder": "var1,var2,var",
             "title": {
+              "en": "Set variables: ",
               "es": "Asignar variables: ",
-              "en": "Set variables: "
+              "pr": "Atribuição de variáveis: "
             },
             "description": {
+              "en": "Variables to set separated by comma",
               "es": "Variables a setear separadas por coma",
-              "en": "Variables to set separated by comma"
+              "pr": "As variáveis ​​a serem definidas devem ser separadas por vírgulas."
             },
             "id": "vars",
             "css": "col-md-12"
@@ -139,6 +158,12 @@
       "es": {
         "title": "Realizar Backup",
         "description": "Crea un nuevo backup",
+        "title_options": null,
+        "options": null
+      },
+      "pr": {
+        "title": "Fazer backup",
+        "description": "Crie um novo backup",
         "title_options": null,
         "options": null
       },
@@ -172,26 +197,36 @@
         "title_options": "Seleccione una opción",
         "options": null
       },
+      "pr": {
+        "title": "Limpar variável(is)",
+        "description": "Insira as variáveis a serem limpas, separadas por vírgulas",
+        "title_options": "Selecione uma opção",
+        "options": null
+      },
       "form": {
         "css": "modal-lg",
         "inputs": [
           {
             "type": "input",
             "placeholder": {
+              "en": "Variable",
               "es": "Variable",
-              "en": "Variable"
+              "pr": "Variável"
             },
             "title": {
+              "en": "Variables",
               "es": "Variables",
-              "en": "Variables"
+              "pr": "Variável"
             },
             "description": {
+              "en": "Variables to be cleaned",
               "es": "Variables a limpiar",
-              "en": "Variables to be cleaned"
+              "pr": "Variáveis ​​a serem limpas"
             },
             "help": {
+              "en": "Variable name without {} and separated by comma",
               "es": "Nombres de variables sin {} y separadas por coma",
-              "en": "Variable name without {} and separated by comma"
+              "pr": "Nomes de variáveis ​​sem chaves {} e separados por vírgulas"
             },
             "remove_vars": true,
             "id": "vars",
@@ -225,26 +260,37 @@
         "title_options": "Seleccione una opción",
         "options": null
       },
+      "pr": {
+        "title": "Limpar variável(eis) por categoria",
+        "description": "Insira a categoria de variáveis ​​a serem limpas.",
+        "title_options": "Selecione uma opção",
+        "options": null
+      },
       "form": {
         "css": "modal-lg",
         "inputs": [
           {
             "type": "input",
             "placeholder": {
+              "en": "Connection",
               "es": "Conexión",
-              "en": "Connection"
+              "pr": "Conexão"
             },
             "title": {
+              "en": "Category",
               "es": "Categoría",
-              "en": "Category"
+              "pr": "Categoria"
             },
             "description": {
+              "en": "Name of the category to which the variables belong to be cleaned. You can add multiple categories separated by commas.",
               "es": "Nombre de la categoría a la que pertenecen las variables a limpiar. Puede agregar varias categorías separadas por coma.",
-              "en": "Name of the category to which the variables belong to be cleaned. You can add multiple categories separated by commas."
+              "pr": "Nome da categoria à qual pertencem as variáveis ​​a serem limpas. Você pode adicionar várias categorias separadas por vírgulas."
+              
             },
             "help": {
+              "en": "Clean the variables that are in the category indicated",
               "es": "Limpia las variables que se encuentren en la categoría indicada",
-              "en": "Clean the variables that are in the category indicated"
+              "pr": "Limpe as variáveis ​​que estão na categoria indicada."
             },
             "id": "categoria",
             "css": "col-md-12"
@@ -277,22 +323,31 @@
         "title_options": "Seleccione una opción",
         "options": null
       },
+      "pr": {
+        "title": "Aleatório",
+        "description": "Comando para usar biblioteca aleatória",
+        "title_options": "Selecione uma opção",
+        "options": null
+      },
       "form": {
         "css": "modal-lg",
         "inputs": [
           {
             "type": "select",
             "placeholder": {
+              "en": "",
               "es": "",
-              "en": ""
+              "pr": ""
             },
             "title": {
+              "en": "Select method",
               "es": "Seleccione metodo",
-              "en": "Select method"
+              "pr": "Selecione o método"
             },
             "description": {
+              "en": "Method of the library used",
               "es": "Metódo de la librería con el cual se trabajará",
-              "en": "Method of the library used"
+              "pr": "Método de biblioteca com o qual trabalhamos"
             },
             "options": [
               {
@@ -318,16 +373,19 @@
           {
             "type": "input",
             "placeholder": {
+              "en": "5,9",
               "es": "5,9",
-              "en": "5,9"
+              "pr": "5,9"
             },
             "title": {
+              "en": "Value",
               "es": "Valor",
-              "en": "Value"
+              "pr": "Valor"
             },
             "description": {
+              "en": "Argument for the method: (random.randrange(argument))",
               "es": "Argumento para el método: (random.randrange(argumento))",
-              "en": "Argument for the method: (random.randrange(argument))"
+              "pr": "Argumento para o método: (random.randrange(argumento))"
             },
             "id": "value",
             "css": "col-md-6"
@@ -335,20 +393,24 @@
           {
             "type": "input",
             "placeholder": {
+              "en": "Variable",
               "es": "Variable",
-              "en": "Variable"
+              "pr": "Variável"
             },
             "title": {
+              "en": "Variable",
               "es": "Variable",
-              "en": "Variable"
+              "pr": "Variável"
             },
             "description": {
+              "en": "Variable where the result will be stored",
               "es": "Variable donde se almacenará el resultado",
-              "en": "Variable where the result will be stored"
+              "pr": "Variável onde o resultado será armazenado."
             },
             "help": {
-              "es": "Nombres de variables sin {} ",
-              "en": "Variable name without {} "
+              "en": "Variable name without {}",
+              "es": "Nombres de variables sin {}",
+              "pr": "Nomes de variáveis ​​sem {}"
             },
             "id": "var",
             "css": "col-md-12"
@@ -381,22 +443,31 @@
         "title_options": "Seleccione una opción",
         "options": null
       },
+      "pr": {
+        "title": "Aplicativo em destaque",
+        "description": "Trazer um aplicativo para o primeiro plano",
+        "title_options": "Selecione uma opção",
+        "options": null
+      },
       "form": {
         "css": "modal-lg",
         "inputs": [
           {
             "type": "input",
             "placeholder": {
+              "en": "test.xlsx - Excel",
               "es": "test.xlsx - Excel",
-              "en": "test.xlsx - Excel"
+              "pr": "test.xlsx - Excel"
             },
             "title": {
+              "en": "Application name",
               "es": "Nombre de aplicación",
-              "en": "Application name"
+              "pr": "Nome do aplicativo"
             },
             "description": {
+              "en": "Name of the application to bring to the foreground",
               "es": "Nombre de la aplicación a traer en primer plano",
-              "en": "Name of the application to bring to the foreground"
+              "pr": "Nome do aplicativo a ser trazido para o primeiro plano"
             },
             "id": "app_name",
             "css": "col-md-12"
@@ -429,26 +500,36 @@
         "title_options": null,
         "options": null
       },
+      "pr": {
+        "title": "Obtenha o controle das janelas abertas.",
+        "description": "Retorna uma lista com tuplas contendo o nome e o identificador das janelas abertas.",
+        "title_options": null,
+        "options": null
+      },
       "form": {
         "css": "modal-md",
         "inputs": [
           {
             "type": "input",
             "placeholder": {
+              "en": "Variable",
               "es": "Variable",
-              "en": "Variable"
+              "pr": "Variável"
             },
             "title": {
+              "en": "Variable",
               "es": "Variable",
-              "en": "Variable"
+              "pr": "Variável"
             },
             "description": {
-              "es": "Variable donde se almacenará el handle",
-              "en": "Variable where the handle will be stored"
+              "en": "Variable where the handle will be stored.",
+              "es": "Variable donde se almacenará el handle.",
+              "pr": "Variável onde o identificador será armazenado."
             },
             "help": {
+              "en": "Variable name without {} ",
               "es": "Nombres de variables sin {} ",
-              "en": "Variable name without {} "
+              "pr": "Nomes de variáveis ​​sem {} "
             },
             "id": "var",
             "css": "col-md-12"
@@ -481,26 +562,36 @@
         "title_options": null,
         "options": null
       },
+      "pr": {
+        "title": "Contador",
+        "description": "Retorna um número contador.",
+        "title_options": null,
+        "options": null
+      },
       "form": {
         "css": "modal-md",
         "inputs": [
           {
             "type": "input",
             "placeholder": {
+              "en": "Variable",
               "es": "Variable",
-              "en": "Variable"
+              "pr": "Variável"
             },
             "title": {
+              "en": "Variable",
               "es": "Variable",
-              "en": "Variable"
+              "pr": "Variável"
             },
             "description": {
+              "en": "Variable where the number will be stored",
               "es": "Variable donde se almacenará el número",
-              "en": "Variable where the number will be stored"
+              "pr": "Variável onde o número será armazenado."
             },
             "help": {
+              "en": "Variable name without {} ",
               "es": "Nombres de variables sin {} ",
-              "en": "Variable name without {} "
+              "pr": "Nomes de variáveis ​​sem {}"
             },
             "id": "var",
             "css": "col-md-12"
@@ -533,22 +624,31 @@
           "title_options": null,
           "options": null
         },
+        "pr": {
+          "title": "Obter argumentos",
+          "description": "Ele recupera os argumentos fornecidos anteriormente ao iniciar o Rocketbot.",
+          "title_options": null,
+          "options": null
+        },
         "form": {
           "css": "modal-lg",
           "inputs": [
             {
                 "type": "input",
                 "placeholder": {
+                  "en": "['-start', 'id', '-db']",
                     "es": "['-start', 'id', '-db']",
-                    "en": "['-start', 'id', '-db']"
+                  "pr": "['-start', 'id', '-db']"
                 },
                 "title": {
+                  "en": "Required arguments:",
                     "es": "Argumentos requeridos:",
-                    "en": "Required arguments:"
+                  "pr": "Argumentos necessários:"
                 },
                 "description": {
+                  "en": "List of required arguments separated by comma.",
                   "es": "Lista de los argumentos requeridos separados por coma.",
-                  "en": "List of required arguments separated by comma."
+                  "pr": "Lista de argumentos obrigatórios separados por vírgulas.."
                 },
                 "id": "argumentsNeeded",
                 "css": "col-md-12"
@@ -556,20 +656,24 @@
             {
                 "type": "input",
                 "placeholder": {
-                    "es": "Variable",
-                    "en": "Variable"
+                  "en": "Variable",
+                  "es": "Variable",
+                  "pr": "Variável"
                 },
                 "title": {
-                    "es": "Asignar resultado a variable:",
-                    "en": "Assign result to variable:"
+                  "en": "Assign result to variable:",
+                  "es": "Asignar resultado a variable:",
+                  "pr": "Atribua o resultado à variável:"
                 },
                 "help": {
-                    "es": "Nombre de variable sin {}",
-                    "en": "Variable name without {}"
+                  "en": "Variable name without {}",
+                  "es": "Nombre de variable sin {}",
+                  "pr": "Nome da variável sem {}"
                 },
                 "description": {
+                  "en": "Variable where the result will be stored",
                   "es": "Variable donde se almacenará el resultado del contador",
-                  "en": "Variable where the result will be stored"
+                  "pr": "Variável onde o resultado do contador será armazenado."
                 },
                 "remove_vars" : true,
                 "id": "whereToStore",
@@ -589,6 +693,69 @@
         "windows": true,
         "mac": true,
         "docker": true
+      },
+      {
+      "en": {
+        "title": "Initialize variable(s) to 0",
+        "description": "Enter the variables to be initialized to 0, separated by commas..",
+        "title_options": "Select Option",
+        "options": null
+      },
+      "es": {
+        "title": "Inicializar variable(s) en 0",
+        "description": "Ingrese las variables a inicializar en 0 separadas por coma",
+        "title_options": "Seleccione una opción",
+        "options": null
+      },
+      "pr": {
+        "title": "Inicialize a(s) variável(eis) com o valor 0.",
+        "description": "Insira as variáveis ​​que devem ser inicializadas com o valor 0, separadas por vírgulas.",
+        "title_options": "Selecione uma opção",
+        "options": null
+      },
+      "form": {
+        "css": "modal-lg",
+        "inputs": [
+          {
+            "type": "input",
+            "placeholder": {
+              "en": "Variable",
+              "es": "Variable",
+              "pr": "Variável"
+            },
+            "title": {
+              "en": "Variables",
+              "es": "Variables",
+              "pr": "Variável"
+            },
+            "description": {
+              "en": "Variables to initialize to 0",
+              "es": "Variables a inicializar en 0",
+              "pr": "Variáveis ​​a serem inicializadas com o valor 0."
+            },
+            "help": {
+              "en": "Variable names to be initialized to 0 without {} and separated by commas",
+              "es": "Nombres de variables a inicializar en 0 sin {} y separadas por coma",
+              "pr": "Os nomes das variáveis ​​a serem inicializadas com 0 devem ser separados por vírgulas, sem chaves ({})."
+            },
+            "remove_vars": true,
+            "id": "vars",
+            "css": "col-md-12"
+          }
+        ]
+      },
+      "video_youtube": "",
+      "icon": "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ3MC4xNzkgNDcwLjE3OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDcwLjE3OSA0NzAuMTc5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0U1NjM1MzsiIGQ9Ik0zNjIuMTU5LDI4OS43M2MwLjYyNCwyNi44NDksMjQuMzUxLDQ4LjcwMiw1MS4yLDQ4LjA3OGMxMS44NjMtMC42MjQsMjMuMTAyLTQuOTk1LDMxLjIyLTEyLjQ4OCAgYzMuNzQ2LTMuNzQ2LDkuMzY2LTUuNjIsMTQuOTg1LTUuNjJoOS45OXYxMzMuNjJjMCw4Ljc0MS02Ljg2OCwxNS42MS0xNS42MSwxNS42MUgzMTkuNzAxdi05Ljk5YzAtNS42MiwyLjQ5OC0xMS4yMzksNi4yNDQtMTUuNjEgIGM3LjQ5My04Ljc0MSwxMi40ODgtMTkuOTgsMTIuNDg4LTMyLjQ2OGMwLTEuODczLDAtMy4xMjIsMC00Ljk5NWMwLTAuNjI0LDAtMC42MjQsMC0xLjI0OWMwLTEuMjQ5LDAtMi40OTgtMC42MjQtMy43NDYgIGMwLTAuNjI0LDAtMS4yNDktMC42MjQtMS44NzNjMC0xLjI0OS0wLjYyNC0xLjg3My0wLjYyNC0zLjEyMmMwLTAuNjI0LTAuNjI0LTEuMjQ5LTAuNjI0LTEuODczICBjLTAuNjI0LTEuMjQ5LTAuNjI0LTEuODczLTEuMjQ5LTMuMTIyYzAtMC42MjQtMC42MjQtMS4yNDktMC42MjQtMS44NzNjLTAuNjI0LTAuNjI0LTAuNjI0LTEuODczLTEuMjQ5LTIuNDk4ICBjMC0wLjYyNC0wLjYyNC0xLjI0OS0wLjYyNC0xLjg3M2MtMC42MjQtMC42MjQtMS4yNDktMS44NzMtMS44NzMtMi40OThjLTAuNjI0LTAuNjI0LTAuNjI0LTEuMjQ5LTEuMjQ5LTEuMjQ5ICBjLTAuNjI0LTAuNjI0LTEuMjQ5LTEuODczLTEuODczLTIuNDk4Yy0wLjYyNC0wLjYyNC0wLjYyNC0wLjYyNC0xLjI0OS0xLjI0OWMtMC42MjQtMC42MjQtMS4yNDktMS4yNDktMS44NzMtMS44NzMgIHMtMS4yNDktMC42MjQtMS4yNDktMS4yNDljLTAuNjI0LTAuNjI0LTEuMjQ5LTEuMjQ5LTIuNDk4LTEuODczYy0wLjYyNC0wLjYyNC0xLjI0OS0wLjYyNC0xLjI0OS0xLjI0OSAgYy0wLjYyNC0wLjYyNC0xLjg3My0xLjI0OS0yLjQ5OC0xLjg3M2MtMC42MjQtMC42MjQtMS4yNDktMC42MjQtMS44NzMtMS4yNDljLTAuNjI0LTAuNjI0LTEuODczLTEuMjQ5LTIuNDk4LTEuMjQ5ICBzLTEuMjQ5LTAuNjI0LTEuODczLTAuNjI0Yy0wLjYyNC0wLjYyNC0xLjg3My0wLjYyNC0yLjQ5OC0xLjI0OWMtMC42MjQsMC0xLjI0OS0wLjYyNC0xLjg3My0wLjYyNCAgYy0wLjYyNCwwLTEuODczLTAuNjI0LTIuNDk4LTEuMjQ5Yy0wLjYyNCwwLTEuMjQ5LDAtMS44NzMtMC42MjRjLTAuNjI0LDAtMS44NzMtMC42MjQtMi40OTgtMC42MjRzLTEuMjQ5LDAtMS44NzMsMCAgcy0xLjg3MywwLTMuMTIyLDBjLTAuNjI0LDAtMS4yNDksMC0yLjQ5OCwwYy0wLjYyNCwwLTEuODczLDAtMi40OTgsMGgtMC42MjRoLTIuNDk4Yy0wLjYyNCwwLTEuODczLDAtMi40OTgsMCAgYy0xLjI0OSwwLTEuODczLDAuNjI0LTMuMTIyLDAuNjI0Yy0wLjYyNCwwLTEuMjQ5LDAtMS44NzMsMGMtMS4yNDksMC0yLjQ5OCwwLjYyNC0zLjc0NiwxLjI0OWgtMC42MjQgIGMtMS4yNDksMC42MjQtMy4xMjIsMS4yNDktNC4zNzEsMS44NzNsMCwwYy05Ljk5LDQuMzcxLTE4LjczMiwxMi40ODgtMjMuNzI3LDIyLjQ3OGMwLDAsMCwwLDAsMC42MjQgIGMtMC42MjQsMS4yNDktMS4yNDksMi40OTgtMS44NzMsMy43NDZjMCwwLDAsMC42MjQtMC42MjQsMS4yNDljLTAuNjI0LDEuMjQ5LTAuNjI0LDEuODczLTEuMjQ5LDMuMTIyICBjMCwwLjYyNC0wLjYyNCwxLjI0OS0wLjYyNCwxLjg3M2MwLDAuNjI0LTAuNjI0LDEuODczLTAuNjI0LDIuNDk4YzAsMC42MjQtMC42MjQsMS4yNDktMC42MjQsMS44NzNjMCwwLjYyNCwwLDEuODczLDAsMi40OTggIGMwLDAuNjI0LDAsMS44NzMsMCwyLjQ5OGMwLDAuNjI0LDAsMS44NzMsMCwyLjQ5OHMwLDEuODczLDAsMi40OTh2MC42MjRjMCwwLjYyNCwwLDEuMjQ5LDAsMS44NzN2Mi40OThjMCwwLjYyNCwwLDEuMjQ5LDAsMS44NzMgIGMwLDAuNjI0LDAsMS44NzMsMC42MjQsMi40OThjMCwwLjYyNCwwLDEuMjQ5LDAuNjI0LDEuODczYzAsMC42MjQsMC42MjQsMS44NzMsMC42MjQsMi40OThjMCwwLjYyNCwwLjYyNCwxLjI0OSwwLjYyNCwxLjg3MyAgYzAsMC42MjQsMC42MjQsMS4yNDksMC42MjQsMS44NzNjMCwwLjYyNCwwLjYyNCwxLjI0OSwwLjYyNCwxLjg3M2MwLDAuNjI0LDAuNjI0LDEuMjQ5LDAuNjI0LDEuODczICBjMCwwLjYyNCwwLjYyNCwxLjI0OSwxLjI0OSwxLjg3M2MwLjYyNCwwLjYyNCwwLjYyNCwxLjI0OSwxLjI0OSwxLjg3M2MwLjYyNCwwLjYyNCwwLjYyNCwxLjI0OSwxLjI0OSwxLjg3MyAgYzAuNjI0LDAuNjI0LDAuNjI0LDEuMjQ5LDEuMjQ5LDEuODczYzAuNjI0LDAuNjI0LDAuNjI0LDEuMjQ5LDEuMjQ5LDEuODczYzAuNjI0LDAuNjI0LDAuNjI0LDAuNjI0LDEuMjQ5LDEuMjQ5ICBjMy43NDYsNC4zNzEsNi4yNDQsOS45OSw2LjI0NCwxNS42MXY5Ljk5SDEyMy42NDJjLTguNzQxLDAtMTUuNjEtNi44NjgtMTUuNjEtMTUuNjFWMzE5LjA3NmgtOS45OSAgYy01LjYyLDAtMTAuNjE1LDEuODczLTE0Ljk4NSw1LjYyYy04LjExNyw3LjQ5My0xOS4zNTYsMTIuNDg4LTMxLjIyLDEyLjQ4OGMtMjYuODQ5LDEuMjQ5LTUwLjU3Ni0yMC42MDUtNTEuMi00OC4wNzggIGMtMC42MjQtMjguMDk4LDIxLjg1NC01MC41NzYsNDkuMzI3LTUwLjU3NmMxMi40ODgsMCwyMy43MjcsNC4zNzEsMzIuNDY4LDEyLjQ4OGM0LjM3MSwzLjc0Niw5LjM2Niw2LjI0NCwxNS42MSw2LjI0NGg5Ljk5VjEyMy4wMTggIGMwLTguNzQxLDYuODY4LTE1LjYxLDE1LjYxLTE1LjYxaDEzNC4yNDR2LTkuOTljMC01LjYyLTEuODczLTEwLjYxNS01LjYyLTE0Ljk4NWMtNy40OTMtOC4xMTctMTIuNDg4LTE5LjM1Ni0xMi40ODgtMzEuMjIgIGMtMS4yNDktMjYuODQ5LDIwLjYwNS01MC41NzYsNDcuNDU0LTUxLjJjMjguMDk4LTAuNjI0LDUwLjU3NiwyMS44NTQsNTAuNTc2LDQ5LjMyN2MwLDEyLjQ4OC00LjM3MSwyMy43MjctMTIuNDg4LDMyLjQ2OCAgYy0zLjc0Niw0LjM3MS02LjI0NCw5LjM2Ni02LjI0NCwxNS42MXY5Ljk5aDEzNC44NjhjOC43NDEsMCwxNS42MSw2Ljg2OCwxNS42MSwxNS42MXYxMzQuMjQ0aC05Ljk5ICBjLTUuNjIsMC0xMS4yMzktMi40OTgtMTUuNjEtNi4yNDRjLTguNzQxLTcuNDkzLTE5Ljk4LTEyLjQ4OC0zMi40NjgtMTIuNDg4QzM4NC4wMTMsMjM5LjE1NCwzNjEuNTM1LDI2MS42MzIsMzYyLjE1OSwyODkuNzN6Ii8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=",
+      "module": "initializeVariables",
+      "module_name": "SystemAdvanced",
+      "visible": true,
+      "options": false,
+      "father": "module",
+      "group": "scripts",
+      "linux": true,
+      "windows": true,
+      "mac": true,
+      "docker": true
       }
   ]
 }

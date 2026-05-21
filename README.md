@@ -46,7 +46,10 @@ return and array with name and handle tuple from Open Window
 Get time number
 
 10. Get Arguments  
-Gets the arguments that were passed when Rocketbot started.  
+Gets the arguments that were passed when Rocketbot started.
+
+11. Initialize variable(s) to 0  
+Enter the variables to be initialized to 0, separated by commas..  
 
 
 
