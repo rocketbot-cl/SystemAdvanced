@@ -30,7 +30,7 @@ Export all Rocketbot variables to a files
 Set multiple variables from an iterable object
 |Parameters|Description|example|
 | --- | --- | --- |
-|Data |Value to set||
+|Dato |Value to set||
 |Set variables |Variables to set separated by comma|var1,var2,var|
 
 ### Run Backup
@@ -74,7 +74,7 @@ App to the foreground
 return and array with name and handle tuple from Open Window
 |Parameters|Description|example|
 | --- | --- | --- |
-|Variable|Variable where the handle will be stored|Variable|
+|Variable|Variable where the handle will be stored.|Variable|
 
 ### Timer
   
@@ -90,3 +90,10 @@ Gets the arguments that were passed when Rocketbot started.
 | --- | --- | --- |
 |Required arguments|List of required arguments separated by comma.|['-start', 'id', '-db']|
 |Assign result to variable|Variable where the result will be stored|Variable|
+
+### Initialize variable(s) to 0
+  
+Enter the variables to be initialized to 0, separated by commas..
+|Parameters|Description|example|
+| --- | --- | --- |
+|Variables|Variables to initialize to 0|Variable|

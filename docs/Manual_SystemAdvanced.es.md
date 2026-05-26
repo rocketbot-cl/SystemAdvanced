@@ -74,7 +74,7 @@ Trae una app a primer plano
 Devuelve una lista con tuplas que contienen el nombre y handle de las ventanas abiertas
 |Parámetros|Descripción|ejemplo|
 | --- | --- | --- |
-|Variable|Variable donde se almacenará el handle|Variable|
+|Variable|Variable donde se almacenará el handle.|Variable|
 
 ### Contador
   
@@ -90,3 +90,10 @@ Obtiene los argumentos previamente dados al iniciar Rocketbot.
 | --- | --- | --- |
 |Argumentos requeridos|Lista de los argumentos requeridos separados por coma.|['-start', 'id', '-db']|
 |Asignar resultado a variable|Variable donde se almacenará el resultado del contador|Variable|
+
+### Inicializar variable(s) en 0
+  
+Ingrese las variables a inicializar en 0 separadas por coma
+|Parámetros|Descripción|ejemplo|
+| --- | --- | --- |
+|Variables|Variables a inicializar en 0|Variable|

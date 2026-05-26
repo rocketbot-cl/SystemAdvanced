@@ -46,7 +46,10 @@ Devuelve una lista con tuplas que contienen el nombre y handle de las ventanas a
 Devuelve un numero de contador
 
 10. Obtener Argumentos  
-Obtiene los argumentos previamente dados al iniciar Rocketbot.  
+Obtiene los argumentos previamente dados al iniciar Rocketbot.
+
+11. Inicializar variable(s) en 0  
+Ingrese las variables a inicializar en 0 separadas por coma  
 
 
 
